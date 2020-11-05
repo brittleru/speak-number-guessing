@@ -34,12 +34,17 @@ p {
 }
 
 .play-again {
+  cursor: pointer;
   padding: 8px 15px;
   border: 0;
-  background: #191414;
+  background: #212121;
+  color: #b3b3b3;
   border-radius: 10px;
   margin-top: 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0.24);
+}
+.play-again:focus {
+  outline: none;
 }
 
 .msg {
